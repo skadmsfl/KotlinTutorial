@@ -28,8 +28,13 @@ fun main(args: Array<String>) {
     println(gr8.weapon.damageInflicted)
 
     tim.weapon = Weapon("time", 10)
-    println(tim.weapon.name)
+//    println(tim.weapon.name)
+    tim.show()
+
+    louise.weapon = tim.weapon
+    louise.show()
 
     tim.weapon = Weapon("meme", 14)
-    println(tim.weapon.name)
+//    println(tim.weapon.name)
+    tim.show()
 }
