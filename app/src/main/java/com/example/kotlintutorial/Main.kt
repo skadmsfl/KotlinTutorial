@@ -8,8 +8,22 @@ fun main(args: Array<String>) {
     tim = "Tim Buchalka"
     println(tim)
 
-    var timSalary: Int = 16
-    var monthly: Int = timSalary * 3
-    println(timSalary)
-    println(monthly)
+    var timsWeeklySalary: Int = 16
+    var timsMonthlySalary: Int = timsWeeklySalary * 3
+    println(timsWeeklySalary)
+    println(timsMonthlySalary)
+
+    println()
+
+    val banana: Int = 12
+    val oranges: Int = 10
+    var fruit: Int = banana - oranges
+    println(fruit)
+
+    println(oranges / 2)
+
+    println()
+    val weeks: Int = 200
+    val years: Double = weeks / 52.0
+    println(years)
 }
